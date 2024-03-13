@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(90deg, rgba(9, 5, 96,1) 0%, rgba(10, 10, 181,1)35%, rgba(0,212,255,1) 100%);
+    overflow-x: hidden; /*скрыть горизонтальный скролл*/
+}
+
+a{
+    text-decoration: none;
+}
+.link{
+    color:teal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.title{
+    color:blueviolet;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.text{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color:#7d7987;
+}
+.subtitle{
+    color: coral;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 80px;
+}
+.picture{
+    border-radius: 30px;
+    width: 350px; 
+    height: 380px;
+}
+.input_text{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
